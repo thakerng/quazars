@@ -1,5 +1,4 @@
-///<reference path='../typings/quazars.d.ts'/>
-
+///<reference path='typings/quazars.d.ts'/>
 class IOC {
 
     protected static services:Array<any> = [];

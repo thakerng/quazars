@@ -1,4 +1,5 @@
-///<reference path='../typings/quazars.d.ts'/>
+///<reference path='typings/quazars.d.ts'/>
+
 import WebpackBuilder = require('./Builders/WebpackBuilder');
 import JsonBuilder = require('./Builders/JsonBuilder');
 import IBuilder = require('./Builders/IBuilder');
@@ -16,9 +17,6 @@ class Builder {
                 break;
         }
 
-        /**
-         *
-         */
     }
 
     protected static json(from:string,config?:any):any{

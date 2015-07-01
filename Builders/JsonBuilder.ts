@@ -1,7 +1,7 @@
 /**
  * Created by thakerng on 6/27/2015 AD.
  */
-///<reference path='../../typings/quazars.d.ts'/>
+///<reference path='../typings/quazars.d.ts'/>
 var _ = require('lodash');
 var path = require('path');
 var serialize = require('serialize-javascript');

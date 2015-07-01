@@ -1,4 +1,5 @@
-///<reference path='../../typings/quazars.d.ts'/>
+///<reference path='../typings/quazars.d.ts'/>
+
 var webpack = require('webpack');
 var _ = require('lodash');
 var path = require('path');

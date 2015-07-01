@@ -1,4 +1,4 @@
-///<reference path='../typings/quazars.d.ts'/>
+///<reference path='typings/quazars.d.ts'/>
 var _ = require('lodash');
 class Configuration{
     static map:any = {};

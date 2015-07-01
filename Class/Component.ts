@@ -1,4 +1,4 @@
-///<reference path='../../typings/quazars.d.ts'/>
+///<reference path='../typings/quazars.d.ts'/>
 import ComponentProvider = require('./ComponentProvider');
 
 class Component{
