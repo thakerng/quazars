@@ -1,6 +1,6 @@
 {
   "name": "quazars",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "nodejs package development core",
   "main": "index.js",
   "directories": {
