@@ -8,10 +8,10 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nunjucks =require('nunjucks');
 
-import Component = require('./Class/Component');
-import ComponentProvider = require('./Class/ComponentProvider');
-import Configuration = require('./Configuration');
-import IOC = require('./IOC');
+import {Component} from './Class/Component';
+import {ComponentProvider} from './Class/ComponentProvider';
+import {Configuration} from './Configuration';
+import {IOC} from './IOC';
 
 class Kernel{
 

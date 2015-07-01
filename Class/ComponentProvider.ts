@@ -1,4 +1,5 @@
 ///<reference path='../typings/quazars.d.ts'/>
+
 var Quazars = require('../Kernel');
 import IOC = require('../IOC');
 class ComponentProvider implements Provider{
@@ -37,4 +38,4 @@ class ComponentProvider implements Provider{
 
 }
 
-export = ComponentProvider;
+export {ComponentProvider};

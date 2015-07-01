@@ -20,4 +20,4 @@ class Configuration{
     }
 }
 
-export = Configuration;
+export {Configuration};

@@ -1,5 +1,5 @@
 ///<reference path='../typings/quazars.d.ts'/>
-import ComponentProvider = require('./ComponentProvider');
+import {ComponentProvider} from './ComponentProvider';
 
 class Component{
     id:string;
@@ -19,4 +19,4 @@ class Component{
     }
 }
 
-export = Component;
+export {Component};

@@ -41,4 +41,4 @@ class Builder {
     }
 }
 
-export = Builder;
+export {Builder};

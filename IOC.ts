@@ -23,4 +23,4 @@ class IOC {
 
 }
 
-export = IOC;
+export {IOC};
