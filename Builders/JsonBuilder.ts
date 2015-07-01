@@ -6,7 +6,7 @@ var _ = require('lodash');
 var path = require('path');
 var serialize = require('serialize-javascript');
 var fs = require('fs');
-import IBuilder = require('./IBuilder');
+import {IBuilder} from './IBuilder';
 
 class JsonBuilder extends IBuilder{
     protected path:string;
@@ -50,4 +50,4 @@ class JsonBuilder extends IBuilder{
     }
 }
 
-export = JsonBuilder;
+export {JsonBuilder};

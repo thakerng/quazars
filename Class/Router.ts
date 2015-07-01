@@ -1,6 +1,6 @@
 ///<reference path='../typings/quazars.d.ts'/>
 var express = require('express');
-import IOC = require('../IOC');
+import {IOC} from '../IOC';
 
 class Router{
     router:any;

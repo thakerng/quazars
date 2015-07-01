@@ -44,4 +44,4 @@ class IBuilder{
     }
 }
 
-export = IBuilder;
+export {IBuilder};

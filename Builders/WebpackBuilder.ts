@@ -4,7 +4,7 @@ var webpack = require('webpack');
 var _ = require('lodash');
 var path = require('path');
 var serialize = require('serialize-javascript');
-import IBuilder = require('./IBuilder');
+import {IBuilder} from './IBuilder';
 
 class WebpackBuilder extends IBuilder{
 
@@ -71,4 +71,4 @@ class WebpackBuilder extends IBuilder{
 
 }
 
-export = WebpackBuilder;
+export {WebpackBuilder};
