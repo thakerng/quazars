@@ -1,4 +1,5 @@
 ///<reference path='express.d.ts'/>
+
 declare var quazars:any;
 
 interface IConfiguration{

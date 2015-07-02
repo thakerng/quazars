@@ -27,7 +27,7 @@ declare module Express {
 
 
 declare module "express" {
-    import http = require('http');
+    import * as http from 'http';
 
     // Merged declaration, e is both a callable function and a namespace
     function e(): e.Express;
