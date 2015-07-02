@@ -8,7 +8,7 @@
   },
   "scripts": {
     "preinstall":"find . -name '*.ts' -type f > alltsfile.txt",
-    "postinstall":"tsc `cat alltsfile.txt` --module commonjs --target es5",
+    "postinstall":"tsc $(cat alltsfile.txt) --module commonjs --target es5",
     "test": "mocha"
   },
   "repository": {
