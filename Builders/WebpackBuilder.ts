@@ -1,4 +1,5 @@
 ///<reference path='../typings/quazars.d.ts'/>
+"use strict";
 
 var webpack = require('webpack');
 var _ = require('lodash');

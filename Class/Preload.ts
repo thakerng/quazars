@@ -1,4 +1,5 @@
 ///<reference path='../typings/quazars.d.ts'/>
+"use strict";
 
 import {Configuration} from '../Configuration';
 

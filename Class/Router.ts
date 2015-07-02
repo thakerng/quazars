@@ -1,4 +1,6 @@
 ///<reference path='../typings/quazars.d.ts'/>
+"use strict";
+
 var express = require('express');
 import {IOC} from '../IOC';
 

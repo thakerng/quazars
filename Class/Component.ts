@@ -1,4 +1,6 @@
 ///<reference path='../typings/quazars.d.ts'/>
+"use strict";
+
 import {ComponentProvider} from './ComponentProvider';
 
 class Component{

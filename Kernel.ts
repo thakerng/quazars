@@ -1,4 +1,5 @@
 ///<reference path='typings/quazars.d.ts'/>
+"use strict";
 
 var express = require('express');
 var path = require('path');

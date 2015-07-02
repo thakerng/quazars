@@ -1,4 +1,6 @@
 ///<reference path='typings/quazars.d.ts'/>
+"use strict";
+
 var _ = require('lodash');
 class Configuration{
     static map:any = {};

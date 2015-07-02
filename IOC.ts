@@ -1,4 +1,6 @@
 ///<reference path='typings/quazars.d.ts'/>
+"use strict";
+
 class IOC {
 
     protected static services:Array<any> = [];

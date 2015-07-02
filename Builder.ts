@@ -1,8 +1,10 @@
 ///<reference path='typings/quazars.d.ts'/>
+"use strict";
 
 import {WebpackBuilder} from './Builders/WebpackBuilder';
 import {JsonBuilder} from './Builders/JsonBuilder';
 import {IBuilder} from './Builders/IBuilder';
+
 class Builder {
 
     public static build(builder:string, from:string, config?:any) {

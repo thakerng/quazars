@@ -1,3 +1,4 @@
+"use strict";
 
 function timeStamp(...input:any[]){
     var order=0,times = input;
