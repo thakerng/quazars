@@ -7,8 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "preinstall":"find . -name '*.ts' -type f > alltsfile.txt",
-    "postinstall":"tsc --target es6 $(cat alltsfile.txt) ",
+    "postinstall":"tsc --target es6 $(find . -name '*.ts' -not -path './typings/*' -not -path './node_modules/*' -type f)",
     "test": "mocha"
   },
   "repository": {
