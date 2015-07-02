@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "postinstall":"tsc --target es6 $(find . -name '*.ts' -not -path './typings/*' -not -path './node_modules/*' -type f)",
+    "postinstall":"tsc --module commonjs --target es5 $(find . -name '*.ts' -not -path './typings/*' -not -path './node_modules/*' -type f)",
     "test": "mocha"
   },
   "repository": {
