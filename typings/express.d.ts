@@ -1830,5 +1830,5 @@ declare module "express" {
 
     }
 
-    export = e;
+    export default e;
 }
