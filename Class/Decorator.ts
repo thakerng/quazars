@@ -17,7 +17,7 @@ function timeStamp(...input:any[]){
                 else if(time =='updated')
                     args[order].updatedAt = new Date();
             }
-            former.apply(this,args);
+            return former.apply(this,args);
         };
         return descriptor;
     }
