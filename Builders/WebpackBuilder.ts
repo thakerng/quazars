@@ -32,6 +32,11 @@ class WebpackBuilder extends IBuilder{
         return this;
     }
 
+    public property(config:any){
+        _.merge(this.config,config);
+        return this;
+    }
+
     public to(fn:string="bundle.js",pth?:string){
         _.merge(this.config,{
             output:{
