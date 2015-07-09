@@ -7,16 +7,17 @@ import {IOC} from '../IOC';
 class Router{
     router:any;
     ioc:any;
-    constructor(share?:any){
+    constructor(...shares:any[]){
         this.router = express.Router();
         this.ioc = IOC;
-        this.route(share);
+        this.route(...shares);
     }
 
-    protected route(share:any){
+    protected route(...shares:any[]){
         /*
          Use Route Here
          */
+        return this.router;
     }
 
     public get(){
