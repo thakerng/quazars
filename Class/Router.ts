@@ -7,6 +7,7 @@ import {IOC} from '../IOC';
 class Router{
     router:any;
     ioc:any;
+
     constructor(...shares:any[]){
         this.router = express.Router();
         this.ioc = IOC;

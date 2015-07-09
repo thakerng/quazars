@@ -1,0 +1,29 @@
+/**
+ * Created by thakerng on 7/10/2015 AD.
+ */
+"use strict";
+
+var Quazars = require('quazars/Kernel');
+var config = require('./config.json');
+
+import {ComponentProvider} from '../../node_modules/quazars/Class/ComponentProvider';
+
+class <<Name>>Provider extends ComponentProvider {
+
+    public provide = ['<<name>>'];
+    public require = [];
+
+    public build() {
+
+    }
+
+    public register() {
+
+    }
+
+    public boot() {
+
+    }
+}
+
+Quazars.load('<<name>>', new <<Name>>Provider(config));
