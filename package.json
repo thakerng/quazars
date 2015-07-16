@@ -7,9 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "rebuild":"tsc --module commonjs --target es5 $(find . -name '*.ts' -not -path './typings/*' -not -path './node_modules/*' -type f)",
-    "rebuild1":"find . -name '*.ts' -not -path './typings/*' -not -path './node_modules/*' -type f > filelist.txt",
-    "rebuild2":"tsc --module commonjs --target es5 @filelist.txt",
+    "postinstall":"find . -name '*.ts' -not -path './typings/*' -not -path './node_modules/*' -type f > filelist.txt && tsc --module commonjs --target es5 @filelist.txt && rm filelist.txt",
     "test": "mocha"
   },
   "repository": {
