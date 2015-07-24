@@ -33,6 +33,7 @@ class Kernel{
         this.app.use(logger('dev'));
         this.app.use(bodyParser.json());
         this.app.use(bodyParser.urlencoded({ extended: false }));
+        this.app.use(express.session({ secret: 'quazars' }));
         this.app.use(cookieParser());
         global.quazars.path = this._config.quazarsPath;
         global.quazars.kernel = path.resolve(this._config.quazarsPath,'Kernel');
