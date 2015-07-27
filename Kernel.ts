@@ -9,6 +9,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nunjucks =require('nunjucks');
 var session = require('express-session');
+var flash = require('connect-flash');
 
 import {Component} from './Class/Component';
 import {ComponentProvider} from './Class/ComponentProvider';
@@ -36,6 +37,7 @@ class Kernel{
         this.app.use(bodyParser.urlencoded({ extended: false }));
         this.app.use(session({ secret: 'quazars' }));
         this.app.use(cookieParser());
+        this.app.use(flash());
         global.quazars.path = this._config.quazarsPath;
         global.quazars.kernel = path.resolve(this._config.quazarsPath,'Kernel');
 
